@@ -37,4 +37,4 @@ jobs:
         deploymentMode: Incremental
         # Supply deployment parameter values. In this simple scenario, 
         # I am only passing the name of the target ADF to which this is being deployed
-        parameters: factoryName=test-adf-joby-qa
+        parameters: factoryName=test-adf-joby-qa AzureSqlDatabase1_connectionString=Server=tcp:testservernamejoby.database.windows.net,1433;Initial Catalog=testdb;Persist Security Info=False;User ID=jobyjennings;Password=soccer23!8;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
