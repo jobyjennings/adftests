@@ -1,0 +1,9 @@
+{
+	"name": "testadf-joby-dev",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "28c5cea3-e380-4654-9d22-59cdcae96151",
+		"tenantId": "243bd71d-cef7-442d-b37f-3ff10a3e2832"
+	}
+}
