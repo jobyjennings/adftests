@@ -14,6 +14,6 @@ jobs:
         node-version: '14.x'
     - run: npm install
     - run: npm run build validate ./ /subscriptions/5224b314-0bae-4a0c-8a58-6207efe6fae3/resourceGroups/tfstate/providers/Microsoft.DataFactory/factories/test-adf-joby-qa
-    - run: npm run build export ./ /subscriptions/5224b314-0bae-4a0c-8a58-6207efe6fae3/resourceGroups/tfstate/providers/Microsoft.DataFactory/factories/test-adf-joby-qa "ArmTemplate"
+    - run: npm run build export ./ /subscriptions/5224b314-0bae-4a0c-8a58-6207efe6fae3/resourceGroups/tfstate/providers/Microsoft.DataFactory/factories/test-adf-joby-qa
 
       
