@@ -2,6 +2,7 @@ on:
   push:
     branches:
       - main ##collaboration branch
+      - adf_publish
 jobs:
   build:
     runs-on: ubuntu-latest
