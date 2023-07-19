@@ -17,7 +17,7 @@ jobs:
       run: npm install
 
     - name: Run Validation
-      uses: ./
+      uses: actions/setup-node@v3
       with: 
         command: npm run bild validate ./ /subscriptions/5224b314-0bae-4a0c-8a58-6207efe6fae3/resourceGroups/tfstate/providers/Microsoft.DataFactory/factories/test-adf-joby-qa
 
